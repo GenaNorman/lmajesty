@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400&family=Libre+Baskerville:wght@400;700&display=swap");
+* {
+  font-family: Josefin Sans;
+}
+body {
+  font-family: " Regular", "Lucida Grande", "Lucida Sans Unicode";
+  font-family: Josefin Sans;
+}
+div.heading {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 196, 0);
+}
+main {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+button {
+  width: 120px;
+  color: #000;
+  background-color: rgb(253, 212, 75);
+  border: 1px solid rgb(255, 220, 104);
+  margin-top: 0px;
+  font-size: 17px;
+  padding: 12px;
+}
+button:hover {
+  background-color: rgb(255, 196, 0);
+  font-weight: bold;
+}
+div img {
+  width: 250px;
+  border-radius: 15px;
+}
+span {
+}
+div.details {
+  width: 100%;
+  height: max-content;
+  line-height: 1.4;
+  margin-left: 20px;
+}
+h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+div p {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 19px;
+  line-height: 1.4;
+}
+div.full-list {
+  width: 33rem;
+  display: flex;
+}
+div.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+  width: 85%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 430px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  div.full-list {
+    width: 33rem;
+    display: block;
+  }
+  div.details {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+  }
+  div.content {
+    margin: 0;
+  }
+  div.nominee-one {
+    width: 100%;
+  }
+  div.nominee-one img {
+    width: 100%;
+  }
+  div.full-list {
+    width: 100%;
+  }
+}

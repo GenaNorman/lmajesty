@@ -1,0 +1,142 @@
+.major {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: max-content;
+  height: max-content;
+  margin: 0 auto;
+}
+div .minor1 > div {
+  margin: 2px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+div .line {
+  position: relative;
+  max-width: 500px;
+  margin: 15px auto;
+  text-align: center;
+}
+div .line:before {
+  content: "";
+  height: 2px;
+  width: 70px;
+  background: blueviolet;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 100px;
+}
+div .line:after {
+  content: "";
+  height: 2px;
+  width: 70px;
+  background: blueviolet;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 100px;
+}
+div .three {
+  color: grey;
+}
+div .minor2 > div {
+  padding: 3px;
+}
+div .minor2 {
+  background-image: url(./images/background-img.png);
+  width: max-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 40px;
+  height: 650px;
+}
+div .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+div .fa:hover {
+  opacity: 0.7;
+}
+div .fa-facebook {
+  background: #3b5998;
+  color: white;
+  width: 10px;
+  height: 10px;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 25px;
+}
+div .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  width: 10px;
+  height: 10px;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 25px;
+  padding: auto;
+}
+div .fa-google {
+  background: #dd4b39;
+  color: white;
+  width: 10px;
+  height: 10px;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 25px;
+}
+div .one {
+  padding: 10px;
+  border: none;
+  border-radius: 16px;
+  background-color: whitesmoke;
+}
+div .one8 {
+  width: 160px;
+  padding: 10px;
+  border-radius: 16px;
+  border: none;
+  background-color: whitesmoke;
+}
+div .one7 {
+  width: 160px;
+  padding: 10px;
+  border-radius: 16px;
+  border: none;
+  background-color: whitesmoke;
+}
+div .one8:hover {
+  border: 1px solid;
+  border-color: blueviolet;
+  color: blueviolet;
+}
+div .two {
+  color: white;
+  padding-top: 200px;
+}
+button a {
+  text-decoration: none;
+}
+div .two2 {
+  color: white;
+  line-height: 23px;
+  padding-left: 5px;
+  padding-left: 5px;
+}
+div .one1 {
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 50px;
+  width: 100px;
+}
+form.dtls {
+  display: flex;
+  flex-direction: column;
+}
